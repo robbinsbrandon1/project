@@ -1,0 +1,130 @@
+body{
+	background-image: url(images/checker.png);
+	color:#FFFFFF;
+	font-family: Verdana, Arial, sans-serif;	
+}
+header{
+	background-color: black;
+	color:#ffffff;
+	font-family: Georgia, sans-serif;
+	line-height: 400%;
+	text-align: center;
+}
+h1{
+	background-image: url(images/banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-left: 2em;
+	height:72px;
+	margin-bottom:0;
+	height: 100px;
+}
+nav{
+	font-weight:bold;
+	float: left;
+	width: 160px;
+	padding:0;
+}
+h2, h3{
+	color:red;
+	font-weight:bold;
+	text-align: center;
+
+}
+dt{
+color: red;
+font-weight:bold;
+}
+p{
+	color: black;
+}
+
+.menu-right {
+	float: right;
+}
+
+footer{
+	font-size: .70em;
+	font-style: italic;
+	text-align: center;
+	padding: 1em;
+	background-color: #ffffff;
+	color:black;
+	margin-left: 170px;
+
+}
+#wrapper{
+	background-color: black;
+	min-width: 700px;
+	max-width: 1024px;
+	box-shadow: 5px 5px 5px #000000;
+	margin-left:auto;
+	margin-right:auto;
+	width:80%;
+}
+
+main{
+	padding-left: 2em;
+	padding-right:2em;
+	background:#ffffff;
+	margin-left: 170px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+#homehero{
+	height:300px;
+	background-image: url(images/juicy.jpg);
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	margin-left: 100px;
+	margin-right:100px;
+}
+nav ul a{
+	text-decoration:none;
+	font-size: 36px;
+}
+nav ul{
+	list-style-type:none;
+	padding-left:1em;
+}	
+nav a:link { color: #ffffff; }
+nav a:visited { color: #c2e0f0; }
+nav a:hover { color: #cccccc; } 
+
+* {
+	box-sizing: border-box;
+}
+
+header,nav,main,footer{display:block;}
+
+table{
+	margin:auto;
+	border: 1px solid #3399cc;
+	width: 90%;
+	border-collapse: collapse;
+}
+
+label{
+	float: left;
+	width:8em;
+	padding-right: 1em;
+	color:black;
+}
+input,textarea { 
+	display:block;
+	margin-bottom: 1em;
+}
+.mySubmit {
+ 	margin-left: 50em;
+}
+#menufun{
+	height:400px;
+	background-image: url(images/menuburger.jpg);
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+}
+form{
+	color: black;
+	font-family: arial, sans-serif;
+	padding:11px;
+}
